@@ -1,8 +1,10 @@
 
-import Profile from "./components/Profile.jsx"; // Зверніть увагу на коректний імпорт
+import Profile from "./components/Profile.jsx";
 import userData from "./userData.json";
 import FriendList from "./components/FriendList.jsx";
 import friends from "./friends.json"
+import TransactionHistory from "./components/TransactionHistory.jsx";
+import transactions from "./transactions.json"
 
 export const App = () => {
     return (
@@ -15,6 +17,8 @@ export const App = () => {
                 stats={userData.stats}
             />
             <FriendList friends={friends}/>
+            <TransactionHistory items={transactions} />
         </>
+
     );
 };
