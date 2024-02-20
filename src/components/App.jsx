@@ -1,12 +1,12 @@
 
-import Profile from "./components/Profile.jsx";
-import userData from "./userData.json";
-import FriendList from "./components/FriendList.jsx";
-import friends from "./friends.json"
-import TransactionHistory from "./components/TransactionHistory.jsx";
-import transactions from "./transactions.json"
+import Profile from "./Profile/Profile.jsx";
+import userData from "../userData.json";
+import FriendList from "./FriendList/FriendList.jsx";
+import friends from "../friends.json"
+import TransactionHistory from "./TransactionHistory/TransactionHistory.jsx";
+import transactions from "../transactions.json"
 
-export const App = () => {
+const App = () => {
     return (
         <>
             <Profile
@@ -22,3 +22,4 @@ export const App = () => {
 
     );
 };
+export default App
