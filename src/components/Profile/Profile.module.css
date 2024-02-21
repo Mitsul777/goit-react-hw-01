@@ -1,0 +1,39 @@
+.card {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    width: 300px;
+    height: 340px;
+    justify-content: end;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img {
+    width: 200px;
+    border-radius: 70%;
+    background-color: grey;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.listItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #808080;
+}
+.fontBold {
+    font-weight: 700;
+}
+.fontGrey {
+    color: grey;
+}
